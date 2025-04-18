@@ -1,6 +1,6 @@
 // ⚠️ Remplace par TES infos Supabase
-const supabaseUrl = 'https://TON_PROJECT_ID.supabase.co';
-const supabaseKey = 'TON_ANON_KEY';
+const supabaseUrl = 'https://cbiqpvkaosjirypavijr.supabase.co';
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNiaXFwdmthb3NqaXJ5cGF2aWpyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDUwMDEwMzUsImV4cCI6MjA2MDU3NzAzNX0.fLg_JnfvNn31q80Oj8hoeX4YD6qlGvg2ZSPb0i42G3I';
 const supabase = supabase.createClient(supabaseUrl, supabaseKey);
 
 let mediaRecorder;
